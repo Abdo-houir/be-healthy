@@ -1,0 +1,47 @@
+.Toastify__toast {
+  border-radius: 8px;
+  /* Rounded corners */
+  padding: 12px;
+  /* Padding for better touch targets */
+  font-size: 14px;
+  /* Adjust font size for readability */
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+  height: 0px;
+}
+
+.scrollbar::-webkit-scrollbar {
+  width: 7px;
+}
+
+/* Track (background) */
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-corner {
+  background: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 6px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
